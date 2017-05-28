@@ -12,7 +12,7 @@ How could the first post in a programming blog start with something else then a 
 
 Great for prototyping things. Very cool features, but not going to explore them all in a byte sized post like this one.
 
-Now, you're probably wondering what **BDP** is. Not sure if I coined it or not, but BDP in my book is Behavior Driven Prototyping. Like its better known relative, BDD, we proceed by first writing failing tests, then the prototyped implementation to make tests pass, and repeat these two steps until we are finally pleased. Ok, ok, BDP actually is BDD, it just sounds more misterious.
+Now, you're probably wondering what **BDP** is. Not sure if I coined it or not, but BDP in my book is Behavior Driven Prototyping. Like its better known relative, BDD, we proceed by first writing failing tests, then the prototyped implementation to make tests pass, and repeat these two steps until finally pleased. Ok, ok, BDP actually is BDD, it just sounds more misterious.
 
 RunKit is perfectly suited for BDP. And for a dev blog as well, since it's a pleasure to embed it right here.  
 So don't be afraid to try things:
