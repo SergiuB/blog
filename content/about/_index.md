@@ -31,4 +31,4 @@ One of the reasons programming ~~is~~ [used to be] fun:
 
 <img style="display: block; margin: 0 auto;" src="https://imgs.xkcd.com/comics/compiling.png">
 
-[Update] Not so applicable these days in JavaScript land with [webpack](https://webpack.js.org) and [hot reloading](https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0), sigh! (and yay! at the same time)
+[Update] Does not happen a lot these days in JavaScript land with [webpack](https://webpack.js.org) and [hot reloading](https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0), sigh! (and yay! at the same time)
