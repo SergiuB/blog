@@ -5,7 +5,7 @@ title = "Debugging single expression arrow functions"
   smartyPants = false
 +++
 
-Here's a neat trick I recently became aware of, to ease my pain with debugging single expression arrow functions (no curly brackets).  
+Here's a neat trick I recently became aware of, that helped ease my pain debugging single expression arrow functions (no curly brackets).  
 
 Anyone who has a more functional style of programming will tend to use a lot of these tiny, concise functions to compose them in bigger functions. They are also heavily used in React functional components.
 
@@ -45,8 +45,7 @@ But why not write it like this?
 const tap = (fn, x) => { fn(x); return x };
 {{< /highlight >}}
 
-It's because we need it to be curried, so we can "prefill" the interceptor, with whatever function we want.  
-In this case we need `console.log`:
+It's because we need it to be curried, so we can "prefill" the interceptor, with whatever function we want, `console.log` in this case:
 {{< highlight jsx >}}
 const tapLog = tap(console.log);
 {{< /highlight >}}

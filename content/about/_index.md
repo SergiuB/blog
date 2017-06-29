@@ -7,10 +7,10 @@ menu = "main"
 
 ### What programming is and is not
 
-Not about being the best. No ninja. No guru. Some reach that status, but probably not by focusing on it, but on doing what they love.
-
 For me it is about improving. About discovery. About finding problems to solutions, and the other way around.
 Sometimes it's not even about solutions or usefulness, but merely a good pastime, like playing an instrument, taking calligraphy courses, or working with wood. And that's reason enough for me to practice it.
+
+Not about being the best. No ninja. No guru. Some reach that status, but probably not by focusing on it, but on doing what they love.
 
 Besides being a programmer I’m a parent, husband, friend, colleague, reader, adventurer, endurance sports enthusiast, and the list might go on. So balance has to be found. I try hard at it, failing most of the time in one area or another, but that's ok.
 
