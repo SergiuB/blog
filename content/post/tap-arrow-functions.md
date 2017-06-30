@@ -72,5 +72,5 @@ const add =
   (a, b) => tapLog('sum=')(tapLog('a=')(a) + b);
 
 add(2, 3);
-'cool, huh?';
+'cool, huh?'
 </div>
