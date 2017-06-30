@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://devserge.surge.sh/"
+baseurl = "https://devserge.surge.sh/"
 languageCode = "en-us"
 title = "Dev Serge"
 theme = "hugo-cactus-theme"
