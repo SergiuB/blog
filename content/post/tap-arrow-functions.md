@@ -45,12 +45,12 @@ But why not write it like this?
 const tap = (fn, x) => { fn(x); return x };
 {{< /highlight >}}
 
-It's because we need it to be curried, so we can "prefill" the interceptor, with whatever function we want, `console.log` in this case:
+It's because we need it to be curried, so we can "prefill" the interceptor, with whatever function we want (`console.log` in this case):
 {{< highlight jsx >}}
 const tapLog = tap(console.log);
 {{< /highlight >}}
 
-So `tapLog` is a function that can be called with an argument, logs that argument, then returns it.  
+So `tapLog` is a function that can be called with an argument, logs that argument, then returns it. A nice perk is being able to write this [point-free](https://en.wikipedia.org/wiki/Tacit_programming).
 
 Let's put it to use in our `add` function:
 {{< highlight jsx >}}
@@ -61,7 +61,7 @@ Addmitedly, being a lazy typist I am not 100% satisfied. I wish there was a way 
 
 There are [clever ways](https://stackoverflow.com/questions/35949554/invoking-a-function-without-parentheses) to invoke functions without parantheses in JavaScript, but unfortunately nothing works if we want the respective function to take arguments and return a value at the same time. Please correct me if I'm wrong here, I would love to find a way.  
 
-Here's a small enhancement, to also log a message with the value, might not be to everyone's taste though:
+Here's a small enhancement, to also log a message with the value, might not be to everyone's taste though, and we lose the point-freeness (or is it point-freedom :) ) in `tapLog`:
 
 <script src="https://embed.runkit.com" data-element-id="my-element"></script>
 <div id="my-element">
@@ -72,5 +72,5 @@ const add =
   (a, b) => tapLog('sum=')(tapLog('a=')(a) + b);
 
 add(2, 3);
-'cool, huh?'
+'cool, huh?';
 </div>
